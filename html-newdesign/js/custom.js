@@ -10,6 +10,18 @@ $(".closebtn").on("click", function(){
 $(".nav-drop span").on("click", function(){
 	$(".mobile-nav .nav-drop .right-submenu").slideToggle();
 });
+$(".pricing-nav-item li a").on("click", function(){
+	$(".pricing-nav-item li").removeClass('active');
+	$(this).parent().addClass('active');
+});
+$(".yearly-plan a").on("click", function(){
+	$(".pricing-plan-content").removeClass('active');
+	$(".yearly-pricing").addClass('active');
+});
+$(".monthly-plan a").on("click", function(){
+	$(".pricing-plan-content").removeClass('active');
+	$(".monthly-pricing").addClass('active');
+});
 
 function openNav() {
 	document.getElementById("mySidenav").style.width = "100%";
