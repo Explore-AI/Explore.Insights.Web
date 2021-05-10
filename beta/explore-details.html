@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Explore|Insights Contact Us</title>
+<title>Connect data with EXPLORE Details</title>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@
 
 <!--Header-->
 
-<header class="main-header flex flex-wrap align-center desk-bar" >
+<header class="main-header flex flex-wrap align-center desk-bar login-after-header" >
   <div class="container">
     <div id="mySidenav" class="navbar flex flex-wrap justify-between">
       <div class="header-left flex align-center">
@@ -26,32 +26,30 @@
       <div class="header-right flex flex-wrap align-center justify-end">
         <div class="nav-menu">
           <ul class="desk-menu flex flex-wrap">
-            <li class="nav-drop"><a href="#">Solutions <span> <img src="images/down-arw.svg" alt=""> </span> </a>
+            <li class="nav-drop menu-active"><a href="#">Connect Data <span> <img src="images/down-arw.svg" alt=""> </span> </a>
+              <div class="right-submenu">
+                <ul>
+                  <li><a href="connect-data.html">Connected Data Sources</a></li>
+                  <li class="menu-active"><a href="explore-details.html">Connected Data Explore</a></li> 
+                </ul>
+              </div>
+            </li>
+            <li class="nav-drop"><a href="#">Access Data <span> <img src="images/down-arw.svg" alt=""> </span> </a>
               <div class="right-submenu">
                 <ul>
                   <li><a href="custom-solutions.html">Custom Solutions</a></li>
+                  <li><a href="data-science.html">Data Science</a></li>
                   <li class="hide"><a href="data-scientists-list.html">Data Scientists List</a></li>
                   <li><a href="platfrom.html">Platfrom</a></li>
                 </ul>
               </div>
             </li>
-            <li><a href="pricing.html">Pricing</a></li>
-			<li class="nav-drop"><a href="#">About Us <span> <img src="images/down-arw.svg" alt=""> </span> </a>
-              <div class="right-submenu">
-                <ul>
-				  <li><a href="analytics-teams.html">Analytics Teams</a></li>
-                  <li><a href="our-values.html">Our Values</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="hide"><a href="blog.html">Blog</a></li>
-            <li class="menu-active"><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Support</a></li>
           </ul>
         </div>
         <div class="nav-btns flex flex-wrap justify-end">
           <ul class="flex flex-wrap">
-            <li class="hide"><a class="log-btn" href="login.html">Log In</a></li>
-            <li class="menu-active"><a class="cont-btn" href="contact.html">Contact Us</a></li>
+            <li><a class="log-btn" href="index.html">Log Out</a></li>
           </ul>
         </div>
       </div>
@@ -76,76 +74,63 @@
 
 
 <!-- banner -->
-<section class="banner-inner blog-bnr contact-bnr">
+<section class="connect-data-section">
   <div class="container">
-    <div class="home-bnr-area">
-      <h1>Contact Us</h1>
-      <p>Send your message below and a dedicated client manager will make contact with you as soon as possible. For immediate assistance please call our sales number.
-      </p>
-    </div>
-  </div>
-  <div class="contact-area-sec">
-    <div class="container">
-      <div class="contact-area flex flex-wrap">
-        <div class="cont-left">
-          <h2>Head Office</h2>
-          <ul>
-            <li>
-              <div class="cont-img">
-                <img src="images/location-icon.svg" alt="">
-              </div>
-              <div class="cont-disc">
-                <h6>Location : </h6>
-                <p>Brickfield Canvas, 35 Brickfield Rd, 1st Floor, Salt River, Cape Town, 7925</p>
-              </div>
-            </li>
-            <li>
-              <div class="cont-img">
-                <img src="images/email-icon.svg" alt="">
-              </div>
-              <div class="cont-disc">
-                <h6>Email : </h6>
-                <a href="mailto:info@explore-insights.net">info@explore-insights.net</a>
-              </div>
-            </li>
-            <li>
-              <div class="cont-img">
-                <img src="images/call-icon.svg" alt="">
-              </div>
-              <div class="cont-disc">
-                <h6>Call :  </h6>
-                <a href="tel:+27(83)5651150">+27 (83) 565 1150</a>
-              </div>
-            </li>
-          </ul>
-          <div class="cont-map">
-            <img src="images/map-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="cont-right">
-          <div class="get-in">
-            <h2>Get In Touch</h2>
-            <form action="">
-              <ul class="cont-form">
-                <li>
-                  <div class="cont-input">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                  </div>
-                </li>
-                <li>
-                  <input type="email" placeholder="Email Address">
-                </li>
-                <li>
-                  <textarea placeholder="Your Message"></textarea>
-                </li>
-              </ul>
-              <a class="btn cont-submit" href="#">Submit Now</a>
-            </form>
-          </div>
-        </div>
-      </div>		
-    </div>
+		<div class="sage-one-logo">
+			<img src="images/sage-one-logo.png" alt="" />
+		</div>
+		<div class="explore-details-content">
+		<h1>Choose Your Data</h1>
+		<p>Let Stitch know what data you want in your warehouse. Make All Your Selections, then finalize them to perform your first sync. <a href="#">You can skip this step for now.</a></p>
+		</div>
+		<div class="data-source-head">
+			<form action="#">
+			<div class="source-search explore-details-search">
+				<input type="text" name="source-search" placeholder="Find a table" />
+				<button type="submit" ><img src="images/search-icon.png" alt="" /></button>
+				
+			</div>
+			</form>
+			<button type="submit" class="site-btn">Submit</button>
+		</div>
+		<div class="table-responsive  explore-details-table">
+			<div class="table-border">
+			<table class="connect-table" >
+				<thead>
+					<tr>
+						<th><input type="checkbox" name="status" class="simple-checkbox-table check-all"/> Table Names</th>
+						<th>Method</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Accounts</div></td>
+						<td>Not Tracked</td>
+					</tr>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Balance_Sheets</div></td>
+						<td>Not Tracked</td>
+					</tr>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Bank_Statements</div></td>
+						<td>Not Tracked</td>
+					</tr>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Bills</div></td>
+						<td>Not Tracked</td>
+					</tr>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Companies</div></td>
+						<td>Not Tracked</td>
+					</tr>
+					<tr>
+						<td><div class="radio-table"><input type="checkbox" name="status" class="simple-checkbox-table"/> <img src="images/calander.png" alt=""> Company_Info</div></td>
+						<td>Not Tracked</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		</div>
   </div>
 </section>
 

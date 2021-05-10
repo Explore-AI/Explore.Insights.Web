@@ -8,7 +8,7 @@ $(".closebtn").on("click", function(){
 	$(".navbar").removeClass('sidenav');
 });
 $(".nav-drop span").on("click", function(){
-	$(".mobile-nav .nav-drop .right-submenu").slideToggle();
+	$(this).parent().parent().find('.right-submenu').slideToggle();
 });
 $(".pricing-nav-item li a").on("click", function(){
 	$(".pricing-nav-item li").removeClass('active');
@@ -77,10 +77,29 @@ $(window).scroll(function() {
 	});
 
 	$('.owl-logos').owlCarousel({
-		margin:10,
+		margin:0,
 		loop:true,
-		autoWidth:true,
+		autoWidth:false,
+		autoplay:true,
 		dots: true,
-		items:1
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			768:{
+				items:3
+			},
+			992:{
+				items:4
+			}
+		}
 	})
+	$(document).ready(function(){
+    $(".check-all").click(function(){
+        $(".simple-checkbox-table").attr("checked", "checked");
+    });
+	});
 
