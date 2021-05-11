@@ -69,50 +69,7 @@ if(isset($_POST['submitNow']))
 
 <!--Header-->
 
-<header class="main-header flex flex-wrap align-center desk-bar" >
-  <div class="container">
-    <div id="mySidenav" class="navbar flex flex-wrap justify-between">
-      <div class="header-left flex align-center">
-        <div class="main-logo"> 
-          <a href="index.html"> <img src="images/main-logo.svg" alt=""> </a> 
-        </div>
-      </div>
-      <div class="header-right flex flex-wrap align-center justify-end">
-        <div class="nav-menu">
-          <ul class="desk-menu flex flex-wrap">
-            <li class="nav-drop"><a href="#">Solutions <span> <img src="images/down-arw.svg" alt=""> </span> </a>
-              <div class="right-submenu">
-                <ul>
-                  <li><a href="custom-solutions.html">Custom Solutions</a></li>
-                  <li class="hide"><a href="data-scientists-list.html">Data Scientists List</a></li>
-                  <li><a href="platfrom.html">Platfrom</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="pricing.html">Pricing</a></li>
-			<li class="nav-drop"><a href="#">About Us <span> <img src="images/down-arw.svg" alt=""> </span> </a>
-              <div class="right-submenu">
-                <ul>
-				  <li><a href="analytics-teams.html">Analytics Teams</a></li>
-                  <li><a href="our-values.html">Our Values</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="hide"><a href="blog.html">Blog</a></li>
-            <li class="menu-active"><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="nav-btns flex flex-wrap justify-end">
-          <ul class="flex flex-wrap">
-            <li class="hide"><a class="log-btn" href="login.html">Log In</a></li>
-            <li class="menu-active"><a class="cont-btn" href="contact.html">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-</header>
+<header class="main-header flex flex-wrap align-center desk-bar" >  <div class="container">    <div id="mySidenav" class="navbar flex flex-wrap justify-between">      <div class="header-left flex align-center">        <div class="main-logo">           <a href="index.html"> <img src="images/main-logo.svg" alt=""> </a>         </div>      </div>      <div class="header-right flex flex-wrap align-center justify-end">        <div class="nav-menu">          <ul class="desk-menu flex flex-wrap">            <li class="nav-drop"><a href="#">Solutions <span> <img src="images/down-arw.svg" alt=""> </span> </a>              <div class="right-submenu">                <ul>				  <li><a href="platfrom.html">The Phoenix</a></li>                  <li><a href="custom-solutions.html">Custom Solutions</a></li>                  <li class="hide"><a href="data-scientists-list.html">Data Scientists List</a></li>                </ul>              </div>            </li>            <li><a href="pricing.html">Pricing</a></li>			<li class="nav-drop"><a href="#">About Us <span> <img src="images/down-arw.svg" alt=""> </span> </a>              <div class="right-submenu">                <ul>				  <li><a href="analytics-teams.html">Analytics Teams</a></li>                  <li><a href="our-values.html">Our Values</a></li>                </ul>              </div>            </li>            <li class="hide"><a href="blog.html">Blog</a></li>            <li class="menu-active"><a href="contact.html">Contact Us</a></li>          </ul>        </div>        <div class="nav-btns flex flex-wrap justify-end">          <ul class="flex flex-wrap">            <li class="hide"><a class="log-btn" href="login.html">Log In</a></li>            <li><a class="cont-btn" href="contact.html">Contact Us</a></li>          </ul>        </div>      </div>    </div>  </div>  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></header>
 
 <!-- mobile-header -->
 <div class="mobile-header flex flex-wrap align-center">
@@ -218,60 +175,7 @@ if(isset($_POST['submitNow']))
 </section>
 
 <!-- footer -->
-<footer class="footer-main">
-    <div class="container">
-      <div class="footer-area flex flex-wrap">
-        <div class="footer-left">
-          <div class="footer-logo">
-            <img src="images/logo-ftr.svg" alt="">
-          </div>
-          <div class="social-ftr social-dsk">
-            <ul class="flex">
-              <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
-              <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
-              <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
-            </ul>
-          </div>
-          <p class="dsk-cp">Copyright © Insights.ai 2021. <br>
-            All rights reserved.</p>
-        </div>
-        <div class="footer-right">
-          <div class="footer-1">
-            <h4>Platform</h4>
-            <ul>
-              <li><a href="custom-solutions.html">How it works</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="platfrom.html">The Platform</a></li>
-            </ul>
-          </div>
-          <div class="footer-2">
-            <h4>Team</h4>
-            <ul>
-              <li><a href="analytics-teams.html">Data Science</a></li>
-              <li><a href="data-scientists-list.html">The Data Scientists</a></li>
-            </ul>
-          </div>
-          <div class="footer-3">
-            <h4>Company</h4>
-            <ul>
-              <li class="hide"><a href="blog.html">Blog</a></li>
-              <li><a href="our-values.html">Our Values</a></li>
-              <li><a href="contact.html">Contact us</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer-left social-mb">
-          <div class="social-ftr">
-            <ul class="flex">
-              <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
-              <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
-              <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
-            </ul>
-          </div>
-          <p>Copyright © Insights.ai 2021. Al
-      </div>
-    </div>
-</footer>
+<footer class="footer-main">    <div class="container">      <div class="footer-area flex flex-wrap">        <div class="footer-left">          <div class="footer-logo">            <img src="images/logo-ftr.svg" alt="">          </div>          <div class="social-ftr social-dsk">            <ul class="flex">              <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>	              <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>            </ul>          </div>          <p class="dsk-cp">Copyright © EXPLORE Insights 2019.<br>            All rights reserved.</p>        </div>        <div class="footer-right">          <div class="footer-1">            <h4>Solutions</h4>            <ul>              <li><a href="custom-solutions.html">Custom Solutions</a></li>              <li><a href="platfrom.html">The Phoenix</a></li>            </ul>          </div>          <div class="footer-2">            <h4>About Us</h4>            <ul>              <li><a href="analytics-teams.html">Analytics Teams</a></li>              <li><a href="our-values.html">Our Values</a></li>            </ul>          </div>          <div class="footer-3">            <h4>Company</h4>            <ul>              <li><a href="pricing.html">Pricing</a></li>              <li><a href="contact.html">Contact us</a></li>            </ul>          </div>        </div>        <div class="footer-left social-mb">          <div class="social-ftr">            <ul class="flex">              <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>              <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>            </ul>          </div>          <p>Copyright © EXPLORE Insights 2019.<br> All rights reserved.      </div>    </div></footer>
 
 
 <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>

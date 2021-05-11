@@ -1173,18 +1173,24 @@ p.team-txt {
 .client-logos-sec .owl-logos .item {
 	width: 272.5px;
 }
+.owl-logos-div>div {
+    display: inline-flex;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+}
 .client-logos-sec .owl-logos .item img {
-	    height: 70px;
-    object-fit: cover;
     width: auto;
     margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 .client-logos-sec .owl-logos .owl-logos-left {
-	margin-right: 50px;
+	padding-right: 50px;
 	margin-bottom: 10px;
 }
 .client-logos-sec .owl-logos .owl-logos-right {
-	margin-left: 78px;
+	padding-left: 78px;
 }
 .save-time-sec{
 	padding: 75px 0;
@@ -1836,7 +1842,7 @@ p.team-txt {
     line-height: 25px;
     font-weight: 300;
 }
-.yearly-pricing .pricing-item ul {
+.pricing-plan-content .pricing-item ul {
     min-height: 305px;
 }
 .pricing-item ul li {
@@ -3528,7 +3534,7 @@ section.custom-solutionss-section {
     min-height: auto;
     margin-bottom: 30px;
 }
-.yearly-pricing .pricing-item ul {
+.pricing-plan-content .pricing-item ul {
     min-height: auto;
 }
 .pricing-item .plan-buy-btn {

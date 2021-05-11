@@ -22,7 +22,10 @@ $(".monthly-plan a").on("click", function(){
 	$(".pricing-plan-content").removeClass('active');
 	$(".monthly-pricing").addClass('active');
 });
-
+$(".nav-drop .right-submenu li").hover(function () {
+	$(".nav-drop:hover .right-submenu li").removeClass("menu-active");
+    $(this).addClass("menu-active");
+ });
 function openNav() {
 	document.getElementById("mySidenav").style.width = "100%";
   }
