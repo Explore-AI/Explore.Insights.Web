@@ -782,7 +782,7 @@ section.custom-solutionss-section + .mount-bg {
 	padding: 15px;
 }
 .testimo-owl .test-box{
-	background: #005DFF;
+	background: #003CA4;
 	border-radius: 30px;
 	padding: 48px 47px 37px;
 	box-shadow: 0px 0px 18px rgb(216 218 221 / 90%);
@@ -801,7 +801,8 @@ section.custom-solutionss-section + .mount-bg {
 }
 .testimo-owl .test-box p{
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: bolder;
+	font-style: italic;
 	line-height: 26px;
 	color: #fff;
 	margin: 0 0 27px;
