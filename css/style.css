@@ -890,6 +890,7 @@ section.custom-solutionss-section + .mount-bg {
 }
 .testimo-owl.owl-carousel .owl-stage-outer{
 	margin-bottom: 25px;
+	padding-bottom: 20px;
 }
 .business-plan-sec {
 	padding: 88px 0 0;
@@ -2676,6 +2677,13 @@ section.custom-solutionss-section {
 }
 .mount-bg img {
     width: 100%;
+}
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+}
+.error-message .success-message {
+    color: green;
 }
 
 /* responsive */

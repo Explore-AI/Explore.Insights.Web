@@ -66,6 +66,7 @@ $(window).scroll(function() {
 		loop:true,
 		margin: 0,
 		nav:true,
+		autoHeight : true,
 		responsive:{
 			0:{
 				items:1
