@@ -7,8 +7,8 @@ $(".closebtn").on("click", function(){
 	$(".main-header").removeClass('mobile-nav');
 	$(".navbar").removeClass('sidenav');
 });
-$(".nav-drop span").on("click", function(){
-	$(this).parent().parent().find('.right-submenu').slideToggle();
+$(".nav-drop>a").on("click", function(){
+	$(this).parent().find('.right-submenu').slideToggle();
 });
 $(".pricing-nav-item li a").on("click", function(){
 	$(".pricing-nav-item li").removeClass('active');
