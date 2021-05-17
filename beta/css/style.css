@@ -3401,8 +3401,10 @@ section.custom-solutionss-section {
 	}
 	.testimo-owl.owl-carousel .owl-dots{
 		display: flex !important;
-		width: 124px;
 		overflow: auto;
+		margin: 0 auto;
+		margin-top: -18px;
+		justify-content: center;
 	}
 	.why-list li{
 		width: 100%;
